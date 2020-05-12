@@ -1,0 +1,205 @@
+#region Suma de Goles a Favor
+for (int i = 0; i <= 13; i++)
+{
+    int toG, toE, toP, toGF, toGC = 0;
+    for (int j = 1; j <= 13; j++) 
+    {
+        if (TG.Rows[i].Cells[0].Value.ToString() == "Alebrijes" && TE.Rows[i].Cells[0].Value.ToString() == "Alebrijes" && TO.Rows[i].Cells[0].Value.ToString() == "Alebrijes" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Alebrijes" && TGC.Rows[i].Cells[0].Value.ToString() == "Alebrijes")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Alebrijes");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Alebrijes");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Alebrijes");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Alebrijes");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Alebrijes");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Atlante" && TE.Rows[i].Cells[0].Value.ToString() == "Atlante" && TO.Rows[i].Cells[0].Value.ToString() == "Atlante" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Atlante" && TGC.Rows[i].Cells[0].Value.ToString() == "Atlante")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Atlante");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Atlante");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Atlante");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Atlante");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Atlante");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Cafetaleros" && TE.Rows[i].Cells[0].Value.ToString() == "Cafetaleros" && TO.Rows[i].Cells[0].Value.ToString() == "Cafetaleros" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Cafetaleros" && TGC.Rows[i].Cells[0].Value.ToString() == "Cafetaleros")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Cafetaleros");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Cafetaleros");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Cafetaleros");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Cafetaleros");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Cafetaleros");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Cimarrones" && TE.Rows[i].Cells[0].Value.ToString() == "Cimarrones" && TO.Rows[i].Cells[0].Value.ToString() == "Cimarrones" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Cimarrones" && TGC.Rows[i].Cells[0].Value.ToString() == "Cimarrones")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Cimarrones");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Cimarrones");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Cimarrones");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Cimarrones");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Cimarrones");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Zacatepec" && TE.Rows[i].Cells[0].Value.ToString() == "Zacatepec" && TO.Rows[i].Cells[0].Value.ToString() == "Zacatepec" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Zacatepec" && TGC.Rows[i].Cells[0].Value.ToString() == "Zacatepec")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Zacatepec");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Zacatepec");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Zacatepec");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Zacatepec");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Zacatepec");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Celaya" && TE.Rows[i].Cells[0].Value.ToString() == "Celaya" && TO.Rows[i].Cells[0].Value.ToString() == "Celaya" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Celaya" && TGC.Rows[i].Cells[0].Value.ToString() == "Celaya")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Celaya");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Celaya");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Celaya");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Celaya");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Celaya");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Correcaminos" && TE.Rows[i].Cells[0].Value.ToString() == "Correcaminos" && TO.Rows[i].Cells[0].Value.ToString() == "Correcaminos" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Correcaminos" && TGC.Rows[i].Cells[0].Value.ToString() == "Correcaminos")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Correcaminos");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Correcaminos");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Correcaminos");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Correcaminos");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Correcaminos");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Dorados" && TE.Rows[i].Cells[0].Value.ToString() == "Dorados" && TO.Rows[i].Cells[0].Value.ToString() == "Dorados" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Dorados" && TGC.Rows[i].Cells[0].Value.ToString() == "Dorados")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Dorados");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Dorados");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Dorados");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Dorados");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Dorados");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Loros Colima" && TE.Rows[i].Cells[0].Value.ToString() == "Loros Colima" && TO.Rows[i].Cells[0].Value.ToString() == "Loros Colima" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Loros Colima" && TGC.Rows[i].Cells[0].Value.ToString() == "Loros Colima")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Loros Colima");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Loros Colima");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Loros Colima");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Loros Colima");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Loros Colima");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Mineros" && TE.Rows[i].Cells[0].Value.ToString() == "Mineros" && TO.Rows[i].Cells[0].Value.ToString() == "Mineros" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Mineros" && TGC.Rows[i].Cells[0].Value.ToString() == "Mineros")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Mineros");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Mineros");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Mineros");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Mineros");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Mineros");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Tampico Madero" && TE.Rows[i].Cells[0].Value.ToString() == "Tampico Madero" && TO.Rows[i].Cells[0].Value.ToString() == "Tampico Madero" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Tampico Madero" && TGC.Rows[i].Cells[0].Value.ToString() == "Tampico Madero")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Tampico Madero");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Tampico Madero");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Tampico Madero");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Tampico Madero");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Tampico Madero");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Potros UAEM" && TE.Rows[i].Cells[0].Value.ToString() == "Potros UAEM" && TO.Rows[i].Cells[0].Value.ToString() == "Potros UAEM" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Potros UAEM" && TGC.Rows[i].Cells[0].Value.ToString() == "Potros UAEM")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Potros UAEM");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Potros UAEM");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Potros UAEM");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Potros UAEM");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Potros UAEM");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Leones Negros" && TE.Rows[i].Cells[0].Value.ToString() == "Leones Negros" && TO.Rows[i].Cells[0].Value.ToString() == "Leones Negros" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Leones Negros" && TGC.Rows[i].Cells[0].Value.ToString() == "Leones Negros")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Leones Negros");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Leones Negros");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Leones Negros");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Leones Negros");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Leones Negros");
+        }
+        else if (TG.Rows[i].Cells[0].Value.ToString() == "Venados" && TE.Rows[i].Cells[0].Value.ToString() == "Venados" && TO.Rows[i].Cells[0].Value.ToString() == "Venados" && 
+            TGF.Rows[i].Cells[0].Value.ToString() == "Venados" && TGC.Rows[i].Cells[0].Value.ToString() == "Venados")
+        {
+            toG += Convert.ToInt32(TG.Rows[i].Cells[j].Value is DBNull ? 0 : TG.Rows[i].Cells[j].Value);
+            toE += Convert.ToInt32(TE.Rows[i].Cells[j].Value is DBNull ? 0 : TE.Rows[i].Cells[j].Value);
+            toP += Convert.ToInt32(TO.Rows[i].Cells[j].Value is DBNull ? 0 : TO.Rows[i].Cells[j].Value);
+            toGF += Convert.ToInt32(TGF.Rows[i].Cells[j].Value is DBNull ? 0 : TGF.Rows[i].Cells[j].Value);
+            toGC += Convert.ToInt32(TGC.Rows[i].Cells[j].Value is DBNull ? 0 : TGC.Rows[i].Cells[j].Value);
+            Odato.aEdPar("tmpGeneral", "G", toG, "Venados");
+            Odato.aEdPar("tmpGeneral", "E", toE, "Venados");
+            Odato.aEdPar("tmpGeneral", "P", toP, "Venados");
+            Odato.aEdPar("tmpGgeneral", "GF", toGF, "Venados");
+            Odato.aEdPar("tmpGeneral", "GC", toGC, "Venados");
+        }
+    }
+}
+#endregion

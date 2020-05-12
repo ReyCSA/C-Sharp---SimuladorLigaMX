@@ -1,0 +1,133 @@
+Came, Cpac,Catl, Cpue,Ccaz, Cpum,Cgua, Cqro,Cleo, Csan,Cjua, Csal,Cmon, Ctig,Cmty, Ctij, Cnec, Ctol,Cvrz
+
+#region Asocia los TextBox a los Label
+if (condicion == "A1")
+{
+    cel.Text = txbL1.Text; zac.Text = txbV1.Text; /**/ Ccel.Text = txbV1.Text; Czac.Text = txbL1.Text; /**/ txbL1.Enabled = cel.Enabled; txbV1.Enabled = zac.Enabled;
+    uae.Text = txbL2.Text; cor.Text = txbV2.Text; /**/ Cuae.Text = txbV2.Text; Ccor.Text = txbL2.Text; /**/ txbL2.Enabled = uae.Enabled; txbV2.Enabled = cor.Enabled;
+    tam.Text = txbL3.Text; dor.Text = txbV3.Text; /**/ Ctam.Text = txbV3.Text; Cdor.Text = txbL3.Text; /**/ txbL3.Enabled = tam.Enabled; txbV3.Enabled = dor.Enabled;
+    atl.Text = txbL4.Text; min.Text = txbV4.Text; /**/ Catl.Text = txbV4.Text; Cmin.Text = txbL4.Text; /**/ txbL4.Enabled = atl.Enabled; txbV4.Enabled = min.Enabled;
+    lor.Text = txbL5.Text; ven.Text = txbV5.Text; /**/ Clor.Text = txbV5.Text; Cven.Text = txbL5.Text; /**/ txbL5.Enabled = lor.Enabled; txbV5.Enabled = ven.Enabled;
+    caf.Text = txbL6.Text; cim.Text = txbV6.Text; /**/ Ccaf.Text = txbV6.Text; Ccim.Text = txbL6.Text; /**/ txbL6.Enabled = caf.Enabled; txbV6.Enabled = cim.Enabled;
+    ale.Text = txbL7.Text; udg.Text = txbV7.Text; /**/ Cale.Text = txbV7.Text; Cudg.Text = txbL7.Text; /**/ txbL7.Enabled = ale.Enabled; txbV7.Enabled = udg.Enabled;
+}
+else if (condicion == "A2")
+{
+    cim.Text = txbL1.Text; ale.Text = txbV1.Text; /**/ Ccim.Text = txbV1.Text; Cale.Text = txbL1.Text; /**/ txbL1.Enabled = cim.Enabled; txbV1.Enabled = ale.Enabled;
+    min.Text = txbL2.Text; tam.Text = txbV2.Text; /**/ Cmin.Text = txbV2.Text; Ctam.Text = txbL2.Text; /**/ txbL2.Enabled = min.Enabled; txbV2.Enabled = tam.Enabled;
+    cor.Text = txbL3.Text; atl.Text = txbV3.Text; /**/ Ccor.Text = txbV3.Text; Catl.Text = txbL3.Text; /**/ txbL3.Enabled = cor.Enabled; txbV3.Enabled = atl.Enabled;
+    zac.Text = txbL4.Text; lor.Text = txbV4.Text; /**/ Czac.Text = txbV4.Text; Clor.Text = txbL4.Text; /**/ txbL4.Enabled = zac.Enabled; txbV4.Enabled = lor.Enabled;
+    ven.Text = txbL5.Text; uae.Text = txbV5.Text; /**/ Cven.Text = txbV5.Text; Cuae.Text = txbL5.Text; /**/ txbL5.Enabled = ven.Enabled; txbV5.Enabled = uae.Enabled;
+    dor.Text = txbL6.Text; cel.Text = txbV6.Text; /**/ Cdor.Text = txbV6.Text; Ccel.Text = txbL6.Text; /**/ txbL6.Enabled = dor.Enabled; txbV6.Enabled = cel.Enabled;
+    udg.Text = txbL7.Text; caf.Text = txbV7.Text; /**/ Cudg.Text = txbV7.Text; Ccaf.Text = txbL7.Text; /**/ txbL7.Enabled = udg.Enabled; txbV7.Enabled = caf.Enabled;
+}
+else if (condicion == "A3")
+{ 
+    tam.Text = txbL1.Text; cor.Text = txbV1.Text; /**/ Ctam.Text = txbV1.Text; Ccor.Text = txbL1.Text; /**/ txbL1.Enabled = tam.Enabled; txbV1.Enabled = cor.Enabled;
+    uae.Text = txbL2.Text; dor.Text = txbV2.Text; /**/ Cuae.Text = txbV2.Text; Cdor.Text = txbL2.Text; /**/ txbL2.Enabled = uae.Enabled; txbV2.Enabled = dor.Enabled;
+    ven.Text = txbL3.Text; udg.Text = txbV3.Text; /**/ Cven.Text = txbV3.Text; Cudg.Text = txbL3.Text; /**/ txbL3.Enabled = ven.Enabled; txbV3.Enabled = udg.Enabled;
+    zac.Text = txbL4.Text; min.Text = txbV4.Text; /**/ Czac.Text = txbV4.Text; Cmin.Text = txbL4.Text; /**/ txbL4.Enabled = zac.Enabled; txbV4.Enabled = min.Enabled;
+    caf.Text = txbL5.Text; atl.Text = txbV5.Text; /**/ Ccaf.Text = txbV5.Text; Catl.Text = txbL5.Text; /**/ txbL5.Enabled = caf.Enabled; txbV5.Enabled = atl.Enabled;
+    cel.Text = txbL6.Text; cim.Text = txbV6.Text; /**/ Ccel.Text = txbV6.Text; Ccim.Text = txbL6.Text; /**/ txbL6.Enabled = cel.Enabled; txbV6.Enabled = cim.Enabled;
+    lor.Text = txbL7.Text; ale.Text = txbV7.Text; /**/ Clor.Text = txbV7.Text; Cale.Text = txbL7.Text; /**/ txbL7.Enabled = lor.Enabled; txbV7.Enabled = ale.Enabled;
+}
+else if (condicion == "A4") 
+{ 
+    udg.Text = txbL1.Text; zac.Text = txbV1.Text; /**/ Cudg.Text = txbV1.Text; Czac.Text = txbL1.Text; /**/ txbL1.Enabled = udg.Enabled; txbV1.Enabled = zac.Enabled;
+    min.Text = txbL2.Text; cel.Text = txbV2.Text; /**/ Cmin.Text = txbV2.Text; Ccel.Text = txbL2.Text; /**/ txbL2.Enabled = min.Enabled; txbV2.Enabled = cel.Enabled;
+    cor.Text = txbL3.Text; lor.Text = txbV3.Text; /**/ Ccor.Text = txbV3.Text; Clor.Text = txbL3.Text; /**/ txbL3.Enabled = cor.Enabled; txbV3.Enabled = lor.Enabled;
+    ale.Text = txbL4.Text; caf.Text = txbV4.Text; /**/ Cale.Text = txbV4.Text; Ccaf.Text = txbL4.Text; /**/ txbL4.Enabled = ale.Enabled; txbV4.Enabled = caf.Enabled;
+    atl.Text = txbL5.Text; uae.Text = txbV5.Text; /**/ Catl.Text = txbV5.Text; Cuae.Text = txbL5.Text; /**/ txbL5.Enabled = atl.Enabled; txbV5.Enabled = uae.Enabled;
+    dor.Text = txbL6.Text; ven.Text = txbV6.Text; /**/ Cdor.Text = txbV6.Text; Cven.Text = txbL6.Text; /**/ txbL6.Enabled = dor.Enabled; txbV6.Enabled = ven.Enabled;
+    cim.Text = txbL7.Text; tam.Text = txbV7.Text; /**/ Ccim.Text = txbV7.Text; Ctam.Text = txbL7.Text; /**/ txbL7.Enabled = cim.Enabled; txbV7.Enabled = tam.Enabled;
+}
+else if (condicion == "A5") 
+{
+    uae.Text = txbL1.Text; ale.Text = txbV1.Text; /**/ Cuae.Text = txbV1.Text; Cale.Text = txbL1.Text; /**/ txbL1.Enabled = uae.Enabled; txbV1.Enabled = ale.Enabled;
+    tam.Text = txbL2.Text; caf.Text = txbV2.Text; /**/ Ctam.Text = txbV2.Text; Ccaf.Text = txbL2.Text; /**/ txbL2.Enabled = tam.Enabled; txbV2.Enabled = caf.Enabled;
+    ven.Text = txbL3.Text; min.Text = txbV3.Text; /**/ Cven.Text = txbV3.Text; Cmin.Text = txbL3.Text; /**/ txbL3.Enabled = ven.Enabled; txbV3.Enabled = min.Enabled;
+    lor.Text = txbL4.Text; cim.Text = txbV4.Text; /**/ Clor.Text = txbV4.Text; Ccim.Text = txbL4.Text; /**/ txbL4.Enabled = lor.Enabled; txbV4.Enabled = cim.Enabled;
+    zac.Text = txbL5.Text; atl.Text = txbV5.Text; /**/ Czac.Text = txbV5.Text; Catl.Text = txbL5.Text; /**/ txbL5.Enabled = zac.Enabled; txbV5.Enabled = atl.Enabled;
+    dor.Text = txbL6.Text; udg.Text = txbV6.Text; /**/ Cdor.Text = txbV6.Text; Cudg.Text = txbL6.Text; /**/ txbL6.Enabled = dor.Enabled; txbV6.Enabled = udg.Enabled;
+    cel.Text = txbL7.Text; cor.Text = txbV7.Text; /**/ Ccel.Text = txbV7.Text; Ccor.Text = txbL7.Text; /**/ txbL7.Enabled = cel.Enabled; txbV7.Enabled = cor.Enabled;
+}
+else if (condicion == "A6") 
+{
+    atl.Text = txbL1.Text; tam.Text = txbV1.Text; /**/ Catl.Text = txbV1.Text; Ctam.Text = txbL1.Text; /**/ txbL1.Enabled = atl.Enabled; txbV1.Enabled = tam.Enabled;
+    min.Text = txbL2.Text; uae.Text = txbV2.Text; /**/ Cmin.Text = txbV2.Text; Cuae.Text = txbL2.Text; /**/ txbL2.Enabled = min.Enabled; txbV2.Enabled = uae.Enabled;
+    cor.Text = txbL3.Text; dor.Text = txbV3.Text; /**/ Ccor.Text = txbV3.Text; Cdor.Text = txbL3.Text; /**/ txbL3.Enabled = cor.Enabled; txbV3.Enabled = dor.Enabled;
+    ale.Text = txbL4.Text; zac.Text = txbV4.Text; /**/ Cale.Text = txbV4.Text; Czac.Text = txbL4.Text; /**/ txbL4.Enabled = ale.Enabled; txbV4.Enabled = zac.Enabled;
+    caf.Text = txbL5.Text; lor.Text = txbV5.Text; /**/ Ccaf.Text = txbV5.Text; Clor.Text = txbL5.Text; /**/ txbL5.Enabled = caf.Enabled; txbV5.Enabled = lor.Enabled;
+    cim.Text = txbL6.Text; ven.Text = txbV6.Text; /**/ Ccim.Text = txbV6.Text; Cven.Text = txbL6.Text; /**/ txbL6.Enabled = cim.Enabled; txbV6.Enabled = ven.Enabled;
+    udg.Text = txbL7.Text; cel.Text = txbV7.Text; /**/ Cudg.Text = txbV7.Text; Ccel.Text = txbL7.Text; /**/ txbL7.Enabled = udg.Enabled; txbV7.Enabled = cel.Enabled;
+}
+else if (condicion == "A7") 
+{
+    dor.Text = txbL1.Text; caf.Text = txbV1.Text; /**/ Cdor.Text = txbV1.Text; Ccaf.Text = txbL1.Text; /**/ txbL1.Enabled = dor.Enabled; txbV1.Enabled = caf.Enabled;
+    lor.Text = txbL2.Text; atl.Text = txbV2.Text; /**/ Clor.Text = txbV2.Text; Catl.Text = txbL2.Text; /**/ txbL2.Enabled = lor.Enabled; txbV2.Enabled = atl.Enabled;
+    tam.Text = txbL3.Text; udg.Text = txbV3.Text; /**/ Ctam.Text = txbV3.Text; Cudg.Text = txbL3.Text; /**/ txbL3.Enabled = tam.Enabled; txbV3.Enabled = udg.Enabled;
+    ven.Text = txbL4.Text; ale.Text = txbV4.Text; /**/ Cven.Text = txbV4.Text; Cale.Text = txbL4.Text; /**/ txbL4.Enabled = ven.Enabled; txbV4.Enabled = ale.Enabled;
+    zac.Text = txbL5.Text; cor.Text = txbV5.Text; /**/ Czac.Text = txbV5.Text; Ccor.Text = txbL5.Text; /**/ txbL5.Enabled = zac.Enabled; txbV5.Enabled = cor.Enabled;
+    cim.Text = txbL6.Text; min.Text = txbV6.Text; /**/ Ccim.Text = txbV6.Text; Cmin.Text = txbL6.Text; /**/ txbL6.Enabled = cim.Enabled; txbV6.Enabled = min.Enabled;
+    cel.Text = txbL7.Text; uae.Text = txbV7.Text; /**/ Ccel.Text = txbV7.Text; Cuae.Text = txbL7.Text; /**/ txbL7.Enabled = cel.Enabled; txbV7.Enabled = uae.Enabled;
+}
+else if (condicion == "A8") 
+{
+    uae.Text = txbL1.Text; lor.Text = txbV1.Text; /**/ Cuae.Text = txbV1.Text; Clor.Text = txbL1.Text; /**/ txbL1.Enabled = uae.Enabled; txbV1.Enabled = lor.Enabled;
+    min.Text = txbL2.Text; caf.Text = txbV2.Text; /**/ Cmin.Text = txbV2.Text; Ccaf.Text = txbL2.Text; /**/ txbL2.Enabled = min.Enabled; txbV2.Enabled = caf.Enabled;
+    atl.Text = txbL3.Text; udg.Text = txbV3.Text; /**/ Catl.Text = txbV3.Text; Cudg.Text = txbL3.Text; /**/ txbL3.Enabled = atl.Enabled; txbV3.Enabled = udg.Enabled;
+    ale.Text = txbL4.Text; tam.Text = txbV4.Text; /**/ Cale.Text = txbV4.Text; Ctam.Text = txbL4.Text; /**/ txbL4.Enabled = ale.Enabled; txbV4.Enabled = tam.Enabled;
+    cor.Text = txbL5.Text; cim.Text = txbV5.Text; /**/ Ccor.Text = txbV5.Text; Ccim.Text = txbL5.Text; /**/ txbL5.Enabled = cor.Enabled; txbV5.Enabled = cim.Enabled;
+    dor.Text = txbL6.Text; zac.Text = txbV6.Text; /**/ Cdor.Text = txbV6.Text; Czac.Text = txbL6.Text; /**/ txbL6.Enabled = dor.Enabled; txbV6.Enabled = zac.Enabled;
+    cel.Text = txbL7.Text; ven.Text = txbV7.Text; /**/ Ccel.Text = txbV7.Text; Cven.Text = txbL7.Text; /**/ txbL7.Enabled = cel.Enabled; txbV7.Enabled = ven.Enabled;
+}
+else if (condicion == "A9") 
+{
+    zac.Text = txbL1.Text; ven.Text = txbV1.Text; /**/ Czac.Text = txbV1.Text; Cven.Text = txbL1.Text; /**/ txbL1.Enabled = zac.Enabled; txbV1.Enabled = ven.Enabled;
+    tam.Text = txbL2.Text; cel.Text = txbV2.Text; /**/ Ctam.Text = txbV2.Text; Ccel.Text = txbL2.Text; /**/ txbL2.Enabled = tam.Enabled; txbV2.Enabled = cel.Enabled;
+    caf.Text = txbL3.Text; cor.Text = txbV3.Text; /**/ Ccaf.Text = txbV3.Text; Ccor.Text = txbL3.Text; /**/ txbL3.Enabled = caf.Enabled; txbV3.Enabled = cor.Enabled;
+    lor.Text = txbL4.Text; min.Text = txbV4.Text; /**/ Clor.Text = txbV4.Text; Cmin.Text = txbL4.Text; /**/ txbL4.Enabled = lor.Enabled; txbV4.Enabled = min.Enabled;
+    udg.Text = txbL5.Text; uae.Text = txbV5.Text; /**/ Cudg.Text = txbV5.Text; Cuae.Text = txbL5.Text; /**/ txbL5.Enabled = udg.Enabled; txbV5.Enabled = uae.Enabled;
+    atl.Text = txbL6.Text; ale.Text = txbV6.Text; /**/ Catl.Text = txbV6.Text; Cale.Text = txbL6.Text; /**/ txbL6.Enabled = atl.Enabled; txbV6.Enabled = ale.Enabled;
+    cim.Text = txbL7.Text; dor.Text = txbV7.Text; /**/ Ccim.Text = txbV7.Text; Cdor.Text = txbL7.Text; /**/ txbL7.Enabled = cim.Enabled; txbV7.Enabled = dor.Enabled;
+}
+else if (condicion == "A10")
+{
+    dor.Text = txbL1.Text; atl.Text = txbV1.Text; /**/ Cdor.Text = txbV1.Text; Catl.Text = txbL1.Text; /**/ txbL1.Enabled = dor.Enabled; txbV1.Enabled = atl.Enabled;
+    uae.Text = txbL2.Text; caf.Text = txbV2.Text; /**/ Cuae.Text = txbV2.Text; Ccaf.Text = txbL2.Text; /**/ txbL2.Enabled = uae.Enabled; txbV2.Enabled = caf.Enabled;
+    min.Text = txbL3.Text; udg.Text = txbV3.Text; /**/ Cmin.Text = txbV3.Text; Cudg.Text = txbL3.Text; /**/ txbL3.Enabled = min.Enabled; txbV3.Enabled = udg.Enabled;
+    ven.Text = txbL4.Text; tam.Text = txbV4.Text; /**/ Cven.Text = txbV4.Text; Ctam.Text = txbL4.Text; /**/ txbL4.Enabled = ven.Enabled; txbV4.Enabled = tam.Enabled;
+    zac.Text = txbL5.Text; cim.Text = txbV5.Text; /**/ Czac.Text = txbV5.Text; Ccim.Text = txbL5.Text; /**/ txbL5.Enabled = zac.Enabled; txbV5.Enabled = cim.Enabled;
+    cor.Text = txbL6.Text; ale.Text = txbV6.Text; /**/ Ccor.Text = txbV6.Text; Cale.Text = txbL6.Text; /**/ txbL6.Enabled = cor.Enabled; txbV6.Enabled = ale.Enabled;
+    cel.Text = txbL7.Text; lor.Text = txbV7.Text; /**/ Ccel.Text = txbV7.Text; Clor.Text = txbL7.Text; /**/ txbL7.Enabled = cel.Enabled; txbV7.Enabled = lor.Enabled;
+}
+else if (condicion == "A11")
+{
+    atl.Text = txbL1.Text; cel.Text = txbV1.Text; /**/ Catl.Text = txbV1.Text; Ccel.Text = txbL1.Text; /**/ txbL1.Enabled = atl.Enabled; txbV1.Enabled = cel.Enabled;
+    ale.Text = txbL2.Text; min.Text = txbV2.Text; /**/ Cale.Text = txbV2.Text; Cmin.Text = txbL2.Text; /**/ txbL2.Enabled = ale.Enabled; txbV2.Enabled = min.Enabled;
+    lor.Text = txbL3.Text; dor.Text = txbV3.Text; /**/ Clor.Text = txbV3.Text; Cdor.Text = txbL3.Text; /**/ txbL3.Enabled = lor.Enabled; txbV3.Enabled = dor.Enabled;
+    caf.Text = txbL4.Text; ven.Text = txbV4.Text; /**/ Ccaf.Text = txbV4.Text; Cven.Text = txbL4.Text; /**/ txbL4.Enabled = caf.Enabled; txbV4.Enabled = ven.Enabled;
+    cim.Text = txbL5.Text; uae.Text = txbV5.Text; /**/ Ccim.Text = txbV5.Text; Cuae.Text = txbL5.Text; /**/ txbL5.Enabled = cim.Enabled; txbV5.Enabled = uae.Enabled;
+    udg.Text = txbL6.Text; cor.Text = txbV6.Text; /**/ Cudg.Text = txbV6.Text; Ccor.Text = txbL6.Text; /**/ txbL6.Enabled = udg.Enabled; txbV6.Enabled = cor.Enabled;
+    tam.Text = txbL7.Text; zac.Text = txbV7.Text; /**/ Ctam.Text = txbV7.Text; Czac.Text = txbL7.Text; /**/ txbL7.Enabled = tam.Enabled; txbV7.Enabled = zac.Enabled;
+}
+else if (condicion == "A12")
+{
+    lor.Text = txbL1.Text; tam.Text = txbV1.Text; /**/ Clor.Text = txbV1.Text; Ctam.Text = txbL1.Text; /**/ txbL1.Enabled = lor.Enabled; txbV1.Enabled = tam.Enabled;
+    cor.Text = txbL2.Text; min.Text = txbV2.Text; /**/ Ccor.Text = txbV2.Text; Cmin.Text = txbL2.Text; /**/ txbL2.Enabled = cor.Enabled; txbV2.Enabled = min.Enabled;
+    ven.Text = txbL3.Text; atl.Text = txbV3.Text; /**/ Cven.Text = txbV3.Text; Catl.Text = txbL3.Text; /**/ txbL3.Enabled = ven.Enabled; txbV3.Enabled = atl.Enabled;
+    cel.Text = txbL4.Text; caf.Text = txbV4.Text; /**/ Ccel.Text = txbV4.Text; Ccaf.Text = txbL4.Text; /**/ txbL4.Enabled = cel.Enabled; txbV4.Enabled = caf.Enabled;
+    dor.Text = txbL5.Text; ale.Text = txbV5.Text; /**/ Cdor.Text = txbV5.Text; Cale.Text = txbL5.Text; /**/ txbL5.Enabled = dor.Enabled; txbV5.Enabled = ale.Enabled;
+    cim.Text = txbL6.Text; udg.Text = txbV6.Text; /**/ Ccim.Text = txbV6.Text; Cudg.Text = txbL6.Text; /**/ txbL6.Enabled = cim.Enabled; txbV6.Enabled = udg.Enabled;
+    zac.Text = txbL7.Text; uae.Text = txbV7.Text; /**/ Czac.Text = txbV7.Text; Cuae.Text = txbL7.Text; /**/ txbL7.Enabled = zac.Enabled; txbV7.Enabled = uae.Enabled;
+}
+else if (condicion == "A13")
+{
+    min.Text = txbL1.Text; dor.Text = txbV1.Text; /**/ Cmin.Text = txbV1.Text; Cdor.Text = txbL1.Text; /**/ txbL1.Enabled = min.Enabled; txbV1.Enabled = dor.Enabled;
+    uae.Text = txbL2.Text; tam.Text = txbV2.Text; /**/ Cuae.Text = txbV2.Text; Ctam.Text = txbL2.Text; /**/ txbL2.Enabled = uae.Enabled; txbV2.Enabled = tam.Enabled;
+    atl.Text = txbL3.Text; cim.Text = txbV3.Text; /**/ Catl.Text = txbV3.Text; Ccim.Text = txbL3.Text; /**/ txbL3.Enabled = atl.Enabled; txbV3.Enabled = cim.Enabled;
+    cor.Text = txbL4.Text; ven.Text = txbV4.Text; /**/ Ccor.Text = txbV4.Text; Cven.Text = txbL4.Text; /**/ txbL4.Enabled = cor.Enabled; txbV4.Enabled = ven.Enabled;
+    ale.Text = txbL5.Text; cel.Text = txbV5.Text; /**/ Cale.Text = txbV5.Text; Ccel.Text = txbL5.Text; /**/ txbL5.Enabled = ale.Enabled; txbV5.Enabled = cel.Enabled;
+    caf.Text = txbL6.Text; zac.Text = txbV6.Text; /**/ Ccaf.Text = txbV6.Text; Czac.Text = txbL6.Text; /**/ txbL6.Enabled = caf.Enabled; txbV6.Enabled = zac.Enabled;
+    udg.Text = txbL7.Text; lor.Text = txbV7.Text; /**/ Cudg.Text = txbV7.Text; Clor.Text = txbL7.Text; /**/ txbL7.Enabled = udg.Enabled; txbV7.Enabled = lor.Enabled;
+}

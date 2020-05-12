@@ -1,0 +1,31 @@
+C:\APP Liga\Simulador\Simulador\bin\Debug\Simulador.exe.config
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.csprojResolveAssemblyReference.cache
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Properties.Resources.resources
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.csproj.GenerateResource.Cache
+C:\APP Liga\Simulador\Simulador\bin\Debug\Simulador.exe
+C:\APP Liga\Simulador\Simulador\bin\Debug\Simulador.pdb
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.exe
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.pdb
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.SimMX.resources
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Menu.resources
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.TablaMX.resources
+C:\APP Liga\Simulador\Simulador\bin\Debug\WebKit.Interop.dll
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.SimTablaMX.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\bin\Debug\Simulador.exe.config
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.exe
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.pdb
+G:\Nueva carpeta (2)\Simulador\Simulador\bin\Debug\Simulador.exe
+G:\Nueva carpeta (2)\Simulador\Simulador\bin\Debug\Simulador.pdb
+G:\Nueva carpeta (2)\Simulador\Simulador\bin\Debug\WebKit.Interop.dll
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.csprojResolveAssemblyReference.cache
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.Menu.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.Properties.Resources.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.SimMX.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.SimTablaMX.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.Simulador.Mex.TablaMX.resources
+G:\Nueva carpeta (2)\Simulador\Simulador\obj\Debug\Simulador.csproj.GenerateResource.Cache
+C:\APP Liga\Simulador\Simulador\bin\Debug\itextsharp.dll
+C:\APP Liga\Simulador\Simulador\bin\Debug\itextsharp.xml
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.MexA.SimMXA.resources
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.MexA.TablaMXA.resources
+C:\APP Liga\Simulador\Simulador\obj\Debug\Simulador.Simulador.MexA.SimTablaMXA.resources

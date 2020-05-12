@@ -1,0 +1,104 @@
+#region Suma de Goles a Favor
+for (int i = 0; i <= 18; i++)
+{
+    int total = 0;
+    for (int j = 1; j < 19; j++)
+    {
+        if (TP.Rows[i].Cells[0].Value.ToString() == "América")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "América");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "A. San Luis")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "A. San Luis");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Atlas")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Atlas");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Cruz Azul")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Cruz Azul");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Guadalajara")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Guadalajara");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "León")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "León");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Juárez")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Juárez");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Morelia")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Morelia");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Monterrey")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Monterrey");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Necaxa")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Necaxa");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Pachuca")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Pachuca");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Puebla")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Puebla");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Querétaro")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Querétaro");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Santos")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Santos");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Tigres")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Tigres");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Tijuana")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Tijuana");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Toluca")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Toluca");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "UNAM")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "UNAM");
+        }
+        else if (TP.Rows[i].Cells[0].Value.ToString() == "Veracruz")
+        {
+            total += Convert.ToInt32(TP.Rows[i].Cells[j].Value is DBNull ? 0 : TP.Rows[i].Cells[j].Value);
+            Odato.aEdPar("general", "P", total, "Veracruz");
+        }
+    }
+}
+#endregion
